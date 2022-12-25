@@ -1,0 +1,48 @@
+body{
+    background-color: yellow;
+}
+
+#score{
+    font-size: 40px;
+    margin-right: 1500px;
+    font-weight: bold;
+}
+
+#time{
+    font-size: 40px;
+    margin-left: 1100px;
+    font-weight: bold;
+}
+
+h1{
+    background-color: cornsilk;
+    color: blue;
+}
+
+#show_sketch{
+    float:right;
+    margin: 5px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#doodle_to_be_drawn{
+    color: red;
+    font-weight: bold;
+}
+
+canvas{
+    border:1px solid white;
+    border-radius: 20px;
+animation-name: animation;
+animation-duration: 4s;
+animation-iteration-count:infinite;
+margin-top: 20px;
+}
+
+@keyframes animation{
+    from{box-shadow: 1px 1px 30px aqua;}
+    to{box-shadow:1px 1px 30px rgb(0, 255, 0);}
+}
